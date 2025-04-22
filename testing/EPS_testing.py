@@ -39,22 +39,13 @@ from alibi.utils.kernel import EuclideanDistance
 tabular = ['ionosphere', 'algerian_forest_fires_new','yeast_new', 'magic_new', 'sonar', 'compas_new', 'house16_new', 'german_onehot', 'spambase_new', 'twonorm', 'lrs', 'vertebral_column', 'iris_new', 'wine_new', 'diva', 'breast',  'steel_plates_faults', 'ecoli', 'heloc_new', 'page_blocks_binary_new']
 
 images = ['doctoral','MNIST', 'cifar10', 'catsdogs', 'waterbirds',
-          'oxfordpets', 'food101', 'organamnist', 'bloodmnist', 'SVHN','stanfordcars']
+          'oxfordpets', 'food101', 'organamnist', 'bloodmnist', 'SVHN']
 
 time_series = ['Yoga', 'StarLightCurves', 'ChlorineConcentration', 'SmallKitchenAppliances', 
                'SharePriceIncrease', 'ElectricDevices', 'GunPoint', 'WormsTwoClass', 'ECG5000', 'Wafer']
 
 text = ['timschopf_medical_abstracts','vicunaspotify', 'palmTED',
-        'tennisgpt','polarity_dataset_v2.0_pang_cs_cornell_embed',
-        'imdb_new', 'news_new','lyrics_proc_embed_new']
-
-
-#text = ['timschopf_medical_abstracts','vicunaspotify', 'palmTED',
-#        'tennisgpt','LiarPantsOnFire','polarity_dataset_v2.0_pang_cs_cornell_embed',
-#       'tdavidson_hate_speech_offensive_embed','imdb', 'news','lyrics_proc_embed']
-
-
-
+        'tennisgpt','polarity_dataset_v2.0_pang_cs_cornell_embed']
 already_split = images + time_series + text[0:-1]
 
 all_datasets = tabular  + time_series + text + images

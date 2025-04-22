@@ -11,6 +11,18 @@ This repository contains the code for PivotTree and RandomPivotTree, a case-base
 ```TimeSeriesVisualization.ipynb``` shows code of training univariate and proximity based splits for ```gun``` dataset for the time-sereis qualitative example reported. Similar code is used for ```cifar10``` and ```oral``` datasets as examples depicted in the relative paper
 
 
+![img_N_cifar10_univar (1)](https://github.com/user-attachments/assets/b79bf60c-5f43-460b-9039-b5e55bb121c5)
+![](path_to_image)
+*Example of Univariate Pivot Tree with $maxdepth = 4$ on ```cifar10```. Only partial structure shown for visualization purposes.*
+
+
+
+
+![img_N_cifar10_prox (1)](https://github.com/user-attachments/assets/b9570008-713a-4674-9bfc-218d9011e7f6)
+![](path_to_image)
+*Example of Proximity Pivot Tree with $maxdepth = 4$ on ```cifar10```. Only partial structure shown for visualization purposes.*
+
+
 ## Training trees
 ```PivotTree``` follows the classic sklearn `fit`/`predict` interface.  
 

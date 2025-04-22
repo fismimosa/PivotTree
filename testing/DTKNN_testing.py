@@ -44,14 +44,7 @@ time_series = ['Yoga', 'StarLightCurves', 'ChlorineConcentration', 'SmallKitchen
                'SharePriceIncrease', 'ElectricDevices', 'GunPoint', 'WormsTwoClass', 'ECG5000', 'Wafer']
 
 text = ['timschopf_medical_abstracts','vicunaspotify', 'palmTED',
-        'tennisgpt','polarity_dataset_v2.0_pang_cs_cornell_embed',
-        'imdb_new', 'news_new','lyrics_proc_embed_new']
-
-
-#text = ['timschopf_medical_abstracts','vicunaspotify', 'palmTED',
-#        'tennisgpt','LiarPantsOnFire','polarity_dataset_v2.0_pang_cs_cornell_embed',
-#       'tdavidson_hate_speech_offensive_embed','imdb', 'news','lyrics_proc_embed']
-
+        'tennisgpt','polarity_dataset_v2.0_pang_cs_cornell_embed']
 
 already_split = images + time_series + text[0:-1]
 

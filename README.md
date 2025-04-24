@@ -13,14 +13,14 @@ This repository contains the code for PivotTree and RandomPivotTree, a case-base
 
 ![img_N_cifar10_univar (1)](https://github.com/user-attachments/assets/b79bf60c-5f43-460b-9039-b5e55bb121c5)
 ![](path_to_image)
-*Example of Univariate Pivot Tree with $maxdepth = 4$ on ```cifar10```. Only partial structure shown for visualization purposes.*
+*Example of Univariate Pivot Tree with maxdepth = 4 on ```cifar10```. Only partial structure shown for visualization purposes.*
 
 
 
 
 ![img_N_cifar10_prox (1)](https://github.com/user-attachments/assets/b9570008-713a-4674-9bfc-218d9011e7f6)
 ![](path_to_image)
-*Example of Proximity Pivot Tree with $maxdepth = 4$ on ```cifar10```. Only partial structure shown for visualization purposes.*
+*Example of Proximity Pivot Tree with maxdepth = 4 on ```cifar10```. Only partial structure shown for visualization purposes.*
 
 
 ## Training trees

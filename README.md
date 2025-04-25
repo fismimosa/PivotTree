@@ -3,7 +3,7 @@
 This repository contains the code for PivotTree and RandomPivotTree, a case-based hierarchical decision tree based model providing an interpretable decision making tool for classification.
 
 
-```validation``` and ```testing``` and respectively include code to run testing and validation experiments. Ensure to run the ```.py``` validation and testing file in the same folder containing ```RuleTree``` folder for proper running or modify the import in the code above to perform stumps and utils import
+```validation``` and ```testing``` respectively include code to run testing and validation experiments. Ensure to run the ```.py``` validation and testing file in the same folder containing ```RuleTree``` folder for proper running or modify the import in the code above to perform stumps and utils import
 
 
 ```BoundaryVisualization.ipynb``` shows code with deptiction of differnet boundary of univariate, oblique and proximity based splits for different versions of ```PivotTree```
